@@ -43,7 +43,7 @@ ax[1].set_xlabel('Fare')
 ax[2].boxplot(sub_data_3)
 ax[2].set_title('PClass = 3',verticalalignment='bottom')
 ax[2].set_xlabel('Fare')
-matploylib.use('Agg')
+matplotlib.use('Agg')
 st.pyplot(fig)
 
 
