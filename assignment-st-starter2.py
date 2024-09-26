@@ -25,7 +25,7 @@ st.write(data)
 # you need to set the x labels and y labels
 # a sample diagram is shown below
 fig, ax = plt.subplots(1, 3, figsize=(15, 5))
-sns.set_theme(style='seaborn')
+sns.set_theme(style="whitegrid")
 
 sub_data_1 = data[data['Pclass'] == 1]['Fare']
 sub_data_2 = data[data['Pclass'] == 2]['Fare']
