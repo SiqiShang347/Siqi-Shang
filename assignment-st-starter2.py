@@ -9,7 +9,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-sns.set()
+import matploylib
 # show the title
 st.title('Titanic App by Siqi Shang')
 # read csv and show the dataframe
@@ -25,7 +25,7 @@ st.write(data)
 # you need to set the x labels and y labels
 # a sample diagram is shown below
 fig, ax = plt.subplots(1, 3, figsize=(15, 5))
-plt.style.use('seaborn')
+sns.set_theme(style='seaborn')
 
 sub_data_1 = data[data['Pclass'] == 1]['Fare']
 sub_data_2 = data[data['Pclass'] == 2]['Fare']
