@@ -9,7 +9,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 # show the title
-st.title('Titanic App by Jinming Luo')
+st.title('Titanic App by Siqi Shang')
 # read csv and show the dataframe
 data = pd.read_csv('train.csv')
 st.write(data) 
@@ -41,23 +41,17 @@ ax[1].set_xlabel('Fare')
 ax[2].boxplot(sub_data_3)
 ax[2].set_title('PClass = 3',verticalalignment='bottom')
 ax[2].set_xlabel('Fare')
-
+matploylib.use('Agg')
 st.pyplot(fig)
 
 
-# In[26]:
-
-
-get_ipython().run_line_magic('matplotlib', 'inline')
-
-
-# In[ ]:
 
 
 
 
 
-# In[ ]:
+
+
 
 
 
