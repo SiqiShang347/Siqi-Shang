@@ -9,7 +9,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-import matploylib
+import matplotlib
 # show the title
 st.title('Titanic App by Siqi Shang')
 # read csv and show the dataframe
