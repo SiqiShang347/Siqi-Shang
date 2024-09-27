@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import matplotlib
 # show the title
-st.title('Titanic App by Riqi Xu')
+st.title('Titanic App by Xiaoxi Wang')
 # read csv and show the dataframe
 data = pd.read_csv('train.csv')
 st.write(data) 
